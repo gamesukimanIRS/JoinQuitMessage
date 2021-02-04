@@ -1,0 +1,25 @@
+name: "JoinQuitMessage"
+version: "1.0.0"
+main: "cf.gamesukimanirs.joinquitmessage.Main"
+api-version: "1.12"
+author: gamesukimanIRS
+commands:
+  setmsgjoinop:
+      description: "OPログイン時のメッセージを設定します"
+      usage: "/setmsgjoinop <String:message>"
+      permission: permission.setmsg
+  setmsgquitop:
+      description: "OPログアウト時のメッセージを設定します"
+      usage: "/setmsgquitop <String:message>"
+      permission: permission.setmsg
+  setmsgjoin:
+      description: "ログイン時のメッセージを設定します"
+      usage: "/setmsgjoin <String:message>"
+      permission: permission.setmsg
+  setmsgquit:
+      description: "ログアウト時のメッセージを設定します"
+      usage: "/setmsgquit <String:message>"
+      permission: permission.setmsg
+permissions:
+  permission.setmsg:
+    default: op

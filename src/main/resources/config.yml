@@ -1,0 +1,9 @@
+#ログインした時のメッセージ。{name}は名前に置き換えられます。
+joinmessage: §f{name}§e が世界にやってきました
+#ログアウトする時のメッセージ。{name}は名前に置換。
+quitmessage: §f{name}§e が世界を去りました
+
+#OPがログインした時のメッセージ。{name}はOPの名前に置換。
+opjoinmessage: §a{name}(OP)§e が世界にやってきました
+#OPがログアウトする時のメッセージ。{name}はOPの名前に置換。
+opquitmessage: §a{name}(OP)§e が世界を去りました
